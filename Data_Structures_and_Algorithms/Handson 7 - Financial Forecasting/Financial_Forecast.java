@@ -1,5 +1,3 @@
-/*Recursion is when a method calls itself to solve smaller versions of a problem. It helps reduce the code size by reducing the repeatable code, thus reducing complexity of problem. */
-
 public class Financial_Forecast{
     public static double futureVal(double pv, double r, int y) {
         if(y==0) 
@@ -15,6 +13,3 @@ public class Financial_Forecast{
         System.out.printf("Forecast value is "+ ans);
     }
 }
-
-
-/* As we are calling the function y times complexity is O(y) */
